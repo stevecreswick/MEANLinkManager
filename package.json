@@ -1,0 +1,25 @@
+{
+  "name": "meanlinkmanager",
+  "version": "1.0.0",
+  "description": "An app that manages all of your tools",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevecreswick/MEANLinkManager.git"
+  },
+  "author": "Steve Creswick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevecreswick/MEANLinkManager/issues"
+  },
+  "homepage": "https://github.com/stevecreswick/MEANLinkManager#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.9"
+  }
+}
