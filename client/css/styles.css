@@ -1,3 +1,56 @@
 body {
-  background-color: cornflowerblue;
+  background-color: white;
+}
+
+.resource{
+  border: 2px solid black;
+  height: 12em;
+  margin-bottom: 2em;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.resource-link{
+  display: inline-block;
+}
+
+.resource-desc{
+  width: 75%;
+  display: inline-block;
+}
+
+
+.menu-pane{
+  background-color: rgba(255,235,205, 0.4);
+  height: 12em;
+  padding: 2em;
+  margin-top: 2em;
+  position: fixed;
+  width: 70%;
+  z-index: 3;
+  border-radius: 5px;
+  border: solid 2px black;
+  font-family: 'Lekton', sans-serif;
+}
+
+.add-resource{
+  margin-left: 3%;
+  /*margin-top: 3em;*/
+}
+
+#add-resource{
+}
+
+.log-out{
+  margin-right: 3%;
+}
+
+.page-title{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5em;
+}
+
+.resource-link:hover{
+  color: red;
 }

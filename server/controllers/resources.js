@@ -1,6 +1,6 @@
 var express = require('express');
 
-var ResourcesController = express.Router();ResourcesController
+var ResourcesController = express.Router();
 
 var Resource = require('../models/resource');
 
