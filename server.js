@@ -31,8 +31,8 @@ app.use('/api/resources', ResourcesController);
 var UsersController = require('./server/controllers/users');
 app.use('/api/users', UsersController);
 
-
+var port = process.env.PORT || '8080';
 // Start App
-app.listen('8080', function(){
+app.listen(port, function(){
   console.log('...listening');
 });
