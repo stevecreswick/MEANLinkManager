@@ -8,8 +8,7 @@ var express      =      require('express'),
 
 
 // Database Connection
-mongoose.connect('mongodb://localhost/resource-data');
-
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/resource-data');
 
 var app = express();
 
